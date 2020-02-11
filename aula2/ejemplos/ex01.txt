@@ -1,0 +1,11 @@
+a) ls: lista el contenido del directorio, sin archivos ocultos
+ls -m: Lista el contenido del directorio separado por comas 
+ls -l: Lista el contenido del directorio en formato largo
+ls -l -v: Lista el contenido del directorio en formato largo y ordenado por su version
+
+c) ls ai[1.5].c: Lista los archivos que comienzan con "ai" y  despues tienen un numero del 1 al 5 y tienen la extension ".c"
+ls [a-c]ii1.c: Lista los archivos que comienzan con una letra de la "a" a la "c" y despues tienen "ii1.c"
+
+e) echo ai[1-5].c: Imprime los archivos que comienzan con "ai", despues tienen un numero del 1 al 5 y terminan con la extension ".c"
+ls [a-c]ii1.c: Lista los archivos que comienzan con una letra de la "a" a la "c" y despues tienen "ii1.c"
+
