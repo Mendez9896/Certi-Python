@@ -1,0 +1,18 @@
+1)
+a) ps -fu andres
+b) ps -fe
+c) firefox &  
+d)kill 3238
+
+2)  gedit   Ctrl + Z 
+fg 1
+
+3) top -M
+
+4)man top
+
+5)top k 3674
+
+
+
+
