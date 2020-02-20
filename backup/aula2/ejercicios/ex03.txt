@@ -1,0 +1,3 @@
+cp --attributes-only: Copias los atributos no el contenido al archivo
+mkdir -m: Al crear el archivo se les da los persimos en formato umask
+rm -i: Preguntar antes de eliminar cada archivo

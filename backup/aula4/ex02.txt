@@ -1,0 +1,7 @@
+1) chmod +x forever.sh
+2)./forever.sh
+3)Ctrl + Z bg 1
+4) ps 
+5) kill 3911
+6) nohup ./forever.sh > resultados.txt 2> sailda.err &
+El proceso no sigue despues de cerrar la terminal

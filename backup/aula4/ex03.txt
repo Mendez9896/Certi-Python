@@ -1,0 +1,45 @@
+Ejercicio 3
+
+1) hostname
+andres-VirtualBox
+
+2) date
+vie feb 14 07:53:19 -04 2020
+
+3) which cp
+/bin/cp
+
+4) Ejemplos find:
+	a)find .
+	b) find ./Certi-Python -maxdepth 5 -name *.so
+	c) find ./Certi-Python -name 'kii2*' ! -name '*.o'
+	d) find ./Certi-Python -name kii2*
+	e) find ~ -type f -name ".*"
+	f) find . -type f -perm 0755
+	g) find . -user andres
+	h) find . -group andres
+	i) find / -atime 1
+	j) find / -size 10k
+5) find ./Certi-Python -name '*.txt'
+./Certi-Python/Certi-Python/resultado.txt
+./Certi-Python/Certi-Python/fulano/aula5/texto.txt
+./Certi-Python/Certi-Python/fulano/prueba.txt
+./Certi-Python/Certi-Python/fulano/aula3/ex01.txt
+./Certi-Python/Certi-Python/fulano/aula3/ex02.txt
+./Certi-Python/Certi-Python/fulano/aula2/ejercicios/ex01.txt
+./Certi-Python/Certi-Python/fulano/aula2/ejercicios/ex02.txt
+./Certi-Python/Certi-Python/fulano/aula2/ejercicios/ex03.txt
+./Certi-Python/Certi-Python/fulano/aula2/ejemplos/ex01.txt
+./Certi-Python/Certi-Python/fulano/aula4/ex01.txt
+./Certi-Python/Certi-Python/fulano/aula4/ex02.txt
+./Certi-Python/Certi-Python/fulano/aula4/resultado.txt
+./Certi-Python/Certi-Python/fulano/aula1/notas.txt
+./Certi-Python/Certi-Python/fulano/aula1/bio.txt
+./Certi-Python/Certi-Python/tres_primeiros.txt
+./Certi-Python/Certi-Python/aula1/curso0.txt
+
+6) find ./Certi-Python -name '*.so' -exec rm {} \;
+
+
+
+

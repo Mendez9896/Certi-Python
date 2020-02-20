@@ -1,0 +1,9 @@
+ls > nombre.txt
+ 
+sort < nombre.txt
+aula1
+fulano
+nombres
+tres_primeiros.txt
+
+sort < nombre.txt > resultado.txt

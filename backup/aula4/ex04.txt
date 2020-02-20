@@ -1,0 +1,30 @@
+1) wc nombres.txt
+
+14 14 78 nombres.txt
+
+2) grep "A" nombres.txt
+Andres 
+
+3) grep -v "A" nombres.txt > nombres-sin-A.txt
+
+4) diff nombres.txt nombres-sin-A.txt
+
+1d0
+< Andres
+
+5) sort < votos.txt | uniq -c | wc -l
+10
+
+6)sort < votos.txt | uniq -c | sort -nr
+     26 Lucie Delaughter
+     18 Bennett Lanza
+     14 Sherrie Melrose
+     14 Shalonda Blakey
+     14 Johna Stoddart
+     14 Gavin Kelleher
+     13 Jolene Graydon
+     12 Homer Whatley
+     12 Awilda Lazaro
+      4 Leonel Zambrano
+      1 Jolene Graydon 
+ 

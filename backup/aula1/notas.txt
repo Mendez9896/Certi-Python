@@ -1,0 +1,8 @@
+Aqui se encuentran mis notas del aula
+cp: copiar archivos y directorios
+rm: remover archivos o directorios
+mv: mover archivos o directorios
+mkdir: crear directorio
+rmdir: Remover directorio
+touch: change file timestamps, tambien sirve para crear archivos
+ls: listar archivos y directorios

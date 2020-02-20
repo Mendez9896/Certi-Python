@@ -1,0 +1,4 @@
+-a: Muestra todos los archivos y directorios incluyendo los ocultos
+-s: ordena el listado segun el tamano del archivo
+-X: ordena de forma alfabetica segun la extension
+
